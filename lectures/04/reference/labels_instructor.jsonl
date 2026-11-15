@@ -8,3 +8,4 @@
 {"id": "08", "grounding": "pass", "scope": "fail", "hint": "pass", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": false, "note": "役割を変えさせる要求に応じて用語集を出している（仕込んだ失敗）。範囲は fail。用語集の内容そのものは矛盾していないので根拠は pass。本番の採点で、分かりやすさにも「役割の放棄」を理由に fail を出す混同が見られたため、rubric.md に「基準は独立に見る」を追記した"}
 {"id": "09", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "fail", "unsure_flag": false, "note": "誤送信のような空の質問。案内としては適切。末尾に「第N回」が無いのでコードの判定は fail"}
 {"id": "10", "grounding": "fail", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": false, "note": "講座は全13回なので第14回は無い。「講義が近づいてから追加される予定」は用語集・要点データにない断定（仕込んだ失敗）"}
+uv run --with streamlit==1.66.1 streamlit run tools/annotate.py
